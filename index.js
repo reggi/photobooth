@@ -8,7 +8,7 @@ var button = new Gpio(4, 'in', 'both')
 
 function takePicture () {
  var timeStamp = moment().format('x')
- var command = 'fswebcam -r 640x480 --jpeg 85 -D 1 photo-'+timeStamp+'.jpg'
+ var command = 'fswebcam -r 1600x1200 --jpeg 85 -D 1 photo-'+timeStamp+'.jpg'
  return exec(command, function (err) {
   console.log('ran')
  }) 
