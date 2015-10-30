@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/reggi/photobooth-dev",
   "dependencies": {
+    "moment": "^2.10.6",
     "onoff": "^1.0.3"
   }
 }
