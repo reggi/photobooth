@@ -23,7 +23,7 @@ function sendToImgur(imagePath) {
 
 function takePicture () {
  var timeStamp = moment().format('x')
- var photoPath = '../photos/photo-'+timeStamp+'.jpg'
+ var photoPath = path.join(__dirname, '../photos/photo-'+timeStamp+'.jpg')
  var command = 'fswebcam --no-banner --no-timestamp --no-overlay -r 1600x1200 --jpeg 85 -D 1 ' + photoPath
  return exec(command, function (err) {
   if (err) throw err
