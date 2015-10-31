@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/reggi/photobooth-dev",
   "dependencies": {
-    "bluebird": "^3.0.2",
     "imgur": "^0.1.7",
+    "lodash": "^3.10.1",
     "moment": "^2.10.6",
     "onoff": "^1.0.3"
   }
