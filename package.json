@@ -18,7 +18,6 @@
   "homepage": "https://github.com/reggi/photobooth-dev",
   "dependencies": {
     "imgur": "^0.1.7",
-    "imgur-node-api": "^0.1.0",
     "moment": "^2.10.6",
     "onoff": "^1.0.3"
   }
